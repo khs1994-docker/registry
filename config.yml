@@ -26,8 +26,8 @@ http:
   http2:
     disabled: false
   tls:
-    certificate: /etc/docker/registry/ssl/1_docker.khs1994.com_bundle.crt
-    key: /etc/docker/registry/ssl/2_docker.khs1994.com.key
+    certificate: /etc/docker/registry/ssl/docker.xc725.wang.crt
+    key: /etc/docker/registry/ssl/docker.xc725.wang.key
 health:
   storagedriver:
     enabled: true
