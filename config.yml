@@ -28,6 +28,17 @@ http:
   tls:
     certificate: /etc/docker/registry/ssl/docker.xc725.wang.crt
     key: /etc/docker/registry/ssl/docker.xc725.wang.key
+notifications:
+  endpoints:
+    - name: alistener
+      disabled: true
+      url: https://my.listener.com/event
+      headers: <http.Header>
+      timeout: 500
+      threshold: 5
+      backoff: 1000
+      ignoredmediatypes:
+        - application/octet-stream
 health:
   storagedriver:
     enabled: true
