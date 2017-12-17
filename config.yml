@@ -20,7 +20,7 @@ auth:
     path: /etc/docker/registry/auth/nginx.htpasswd
 http:
   addr: :443
-  host: https://docker.khs1994.com
+  host: https://docker.xc725.wang
   headers:
     X-Content-Type-Options: [nosniff]
   http2:

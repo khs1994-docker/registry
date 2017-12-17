@@ -4,14 +4,6 @@
 $ docker run --rm \
     --entrypoint htpasswd \
     registry \
+    # -mbn username password > auth/nginx.htpasswd \
     -Bbn username password > auth/nginx.htpasswd
-```
-
-注意 Nginx 可能不能解密，请换为：
-
-```bash
-$ docker run --rm \
-    --entrypoint htpasswd \
-    registry \
-    -mbn username password > auth/nginx.htpasswd
 ```
