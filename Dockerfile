@@ -1,3 +1,3 @@
-FROM registry:latest@sha256:feb40d14cd33e646b9985e2d6754ed66616fedb840226c4d917ef53d616dcd6c
+FROM registry:latest@sha256:e09ed8c6c837d366a501f15dcb47939bbbb6242bf3886270834e2a0fa1555234
 
 COPY . /etc/docker/registry/
